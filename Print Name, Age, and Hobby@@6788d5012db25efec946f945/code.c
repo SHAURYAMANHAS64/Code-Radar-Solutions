@@ -6,6 +6,6 @@ int main() {
     scanf("%c %c %c",&str1 , str2,str3);
     printf("Name: \n", str1);
     printf("Age: \n", str2);
-    printf("Hobby: \n",str2)
+    printf("Hobby: \n",str2);
     return 0;
 }
