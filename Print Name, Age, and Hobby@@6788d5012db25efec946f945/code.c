@@ -2,10 +2,12 @@
 
 
 int main() {
-    char str1[100], str2[100],str3[100];
-    scanf("%s %s %s",&str1 , str2, str3);
-    printf("Name: \n", str1);
-    printf("Age: \n", str2);
-    printf("Hobby: \n",str2);
+    char name[100];
+    int age;
+    char hobby[100];
+    scanf("%[^\n]s", name);
+    scanf("%d",&age);
+    scanf("%[^\n]s", name);
+    printf("Name: %s , Age: %d , Hobby: %s\n", name, age , hobby);
     return 0;
 }
