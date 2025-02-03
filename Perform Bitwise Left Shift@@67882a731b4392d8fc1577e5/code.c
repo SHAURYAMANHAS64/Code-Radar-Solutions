@@ -5,6 +5,6 @@ int main() {
     int num ,pos;
     scanf("%d %d",&num, &pos);
     int result = num<<pos;
-    prinf("%d\n",result);
+    printf("%d\n",result);
     return 0;
 }
