@@ -10,7 +10,7 @@ int main() {
     if(a<0 || b<0){
         printf("Negative");
     }
-    if(a==0 || b==0){
+    else if(a==0 || b==0){
         printf("Zero");
     }else{
         printf("Positive");
