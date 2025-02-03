@@ -3,6 +3,6 @@
 int main() {
     int a,b;
     scanf("%d %d", &a , &b);
-    printf("%s\n",(a^b)? "True":"False");
+    printf("%s\n",(a^b));
     return 0;
 }
