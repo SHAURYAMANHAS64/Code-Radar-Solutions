@@ -1,4 +1,5 @@
-// Your code here...
+// Your code here.
+#include<stdio.h>
 int main(){
     int marks;
     scanf("%d",&marks);
