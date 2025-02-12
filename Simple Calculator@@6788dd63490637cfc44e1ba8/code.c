@@ -22,7 +22,7 @@ int main()
     case '/':
         if (num2 != 0)
         {
-            printf("%f\n", (float)num1 / num2);
+            printf("%f\n", (int)num1 / num2);
         }
         else
         {
