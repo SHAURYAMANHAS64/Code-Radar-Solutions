@@ -6,25 +6,23 @@ int main()
 
     
     scanf("%d %d", &num1, &num2);
-
-    printf("Enter an operator: ");
     scanf(" %c", &op);
 
     switch (op)
     {
     case '+':
-        printf("The sum is %d\n", num1 + num2);
+        printf("%d\n", num1 + num2);
         break;
     case '-':
-        printf("The difference is %d\n", num1 - num2);
+        printf("%d\n", num1 - num2);
         break;
     case '*':
-        printf("The product is %d\n", num1 * num2);
+        printf("%d\n", num1 * num2);
         break;
     case '/':
         if (num2 != 0)
         {
-            printf("The division is %f\n", (float)num1 / num2);
+            printf("%f\n", (float)num1 / num2);
         }
         else
         {
@@ -33,7 +31,7 @@ int main()
         break;
 
     default:
-        printf("Invalid operator\n");
+        printf("error\n");
         break;
     }
 
