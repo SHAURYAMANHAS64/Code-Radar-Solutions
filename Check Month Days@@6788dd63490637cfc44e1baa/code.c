@@ -22,7 +22,7 @@ int main()
         printf("30\n");
         break;
     case 2:
-        printf("28 days\n");
+        printf("28\n");
         break;
     default:
         printf("Invalid month\n");
