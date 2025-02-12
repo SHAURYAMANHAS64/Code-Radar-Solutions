@@ -5,7 +5,7 @@ int main(){
     if(temp<=0){
         printf("Freezing");
     }else{
-        printf("Above freezing");
+        printf("Above reezing");
     }
     return 0;
 }
