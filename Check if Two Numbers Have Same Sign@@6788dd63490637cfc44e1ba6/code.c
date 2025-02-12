@@ -5,7 +5,7 @@ int main(){
     if(a+b>0){
         printf("Same Sign");
     }else if(a+b<0){
-        printf("Same sign");
+        printf("Same Sign");
 
     }
     else{
