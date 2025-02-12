@@ -4,7 +4,11 @@ int main(){
     scanf("%d %d",&a ,&b);
     if(a+b>0){
         printf("Same Sign");
-    }else{
+    }else if(a+b<0){
+        printf("Same sign");
+
+    }
+    else{
         printf("Different Sign");
     }
     return 0;
