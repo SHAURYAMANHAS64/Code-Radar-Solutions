@@ -26,7 +26,7 @@ int main()
         }
         else
         {
-            printf("Cannot divide by zero\n");
+            printf("error\n");
         }
         break;
 
