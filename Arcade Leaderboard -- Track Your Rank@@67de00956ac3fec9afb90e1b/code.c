@@ -18,6 +18,6 @@ void trackPlayerRanks(int ranked[], int n, int player[], int m, int result[]) {
             rankIndex--;
         }
         // Rank is index + 2 because we start counting ranks from 1
-        result[i] = rankIndex + 2;
-    }
+        result[i] = rankIndex+2;
+}
 }
