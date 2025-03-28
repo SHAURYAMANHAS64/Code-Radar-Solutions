@@ -1,16 +1,29 @@
 #include <stdio.h>
 
 int main(){
-    int n,i,j;
+    int n, i, j, stars;
     scanf("%d", &n);
-    for(i=1; i<=n; i++){
-        for(j=1; j<=n-i; j++){
+    
+    // Initialize stars to 1 because the first line should have 1 star.
+    stars = 1;
+    
+    for(i = 1; i <= n; i++){
+        // Print leading spaces
+        for(j = 1; j <= n - i; j++){
             printf(" ");
         }
-        for(j=1; j<=i; j++){
+        
+        // Print stars (increasing by 2 for each line)
+        for(j = 1; j <= stars; j++){
             printf("* ");
         }
+        
+        // Increase the number of stars by 2 for the next line
+        stars += 2;
+        
+        // Move to the next line
         printf("\n");
     }
+    
     return 0;
 }
