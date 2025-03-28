@@ -15,7 +15,7 @@ int main(){
         
         // Print stars (increasing by 2 for each line)
         for(j = 1; j <= stars; j++){
-            printf("* ");
+            printf("*");
         }
         
         // Increase the number of stars by 2 for the next line
