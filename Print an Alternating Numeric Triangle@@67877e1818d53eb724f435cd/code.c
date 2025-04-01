@@ -4,6 +4,7 @@ int main()
 {
     int i, j, n;
     scanf("%d", n);
+    int a;
     for (int i = 1; i <= n; i++)
     {
         if (i % 2 != 0)
